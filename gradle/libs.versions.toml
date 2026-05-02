@@ -1,6 +1,6 @@
 [versions]
 pure = "1.6.6"
-lesson = "2.0.16"
+lesson = "2.0.17"
 
 [libraries]
 pure = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "pure" }
